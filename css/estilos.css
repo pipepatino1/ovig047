@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#contenido{
+	width:1200px;
+	height:auto;
+	margin:auto;
+	position:relative;
+	background:#FFFFFF;
+}
+@font-face{
+	font-family: 'Franklin-gothic-book';
+	src:url(./font/franklin-gothic-book.ttf)format("truetype");
+}
+@font-face{
+	font-family: 'franklin-gothic-book-italic';
+	src:url(./font/franklin-gothic-book-italic.ttf) format("truetype");
+}
+@font-face{
+	font-family: 'Franklin-gothic-heavy';
+	src:url(./font/franklin-gothic-heavy.ttf) format("truetype");
+}
+body{
+	background:#FFFFFF;
+}
+header{
+	background-image: url(../img/header1.jpg);
+	background-size: 1180px;
+	background-position: center center;
+	height: 260px;
+	width:1200px;
+	margin-top:10px;	
+	border-radius: 5px;
+}
+h1{
+	font-family: 'franklin-gothic-book-italic';
+	color:#F0B429;
+	text-align: center;
+	font-size:45px;
+	margin-left:30px;
+}
+h2{
+	font-family: 'Franklin-gothic-heavy';
+	color:black;
+	text-align: left;
+	font-size:30px;	
+	margin-top: 15px;
+}
+nav{
+	width:800px;
+	height: 40px;
+	margin: 3px 0 5px 0;
+	background: #FFFFFF;
+}
+#menu{
+	list-style: none;
+	margin:1px 0 1px 0;
+}
+#menu li{			
+	margin:4px 4px 5px 2px;	
+}
+#menu>li{
+	float:left;
+}
+#menu li ul{
+	display:none;
+	position:absolute;
+	min-width: 120px;
+	list-style: none;
+	text-align: center;
+}
+#menu li:hover>ul{
+	display:block;
+}
+#menu li a{	
+	display: block;
+	text-decoration: none;	
+	padding: 15px;	
+	background: #B3B3B3;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	line-height: 8px;
+	border-radius: 5px;
+	border:1px solid black;	
+}
+#menu li a:hover{
+	background: #FFFFFF;
+	color:#005883;
+}
+section{
+	width: 800px;
+	height:800px;
+	background: #FFFFFF;
+	float: left;
+}
+aside{
+	width: 390px;
+	height: 852px;
+	float:left;
+	background: #F0B429;
+	margin: -52px 0 0 10px;
+	border-radius: 5px;
+}
+img{
+	width: 100%;
+	border-radius: 5px;
+}
+footer{
+	width: 1200px;
+	height: 40px;
+	font-size: 20px;	
+	text-align: center;	
+	background: #005883;
+	float:left;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+#p1{
+	font-family: 'Franklin-gothic-book';
+	font-size: 22px;
+	text-align: justify;
+	margin-top: 5px;
+}
+#p2{
+	font-family: 'Franklin-gothic-book';
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+}
