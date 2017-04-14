@@ -26,6 +26,7 @@ body{
 }
 header{
 	background-image: url(../img/header1.jpg);
+	background-color: #005883;
 	background-size: 1180px;
 	background-position: center center;
 	height: 260px;
@@ -91,7 +92,7 @@ nav{
 }
 section{
 	width: 800px;
-	height:500px;
+	height:648px;
 	background: #FFFFFF;
 	float: left;
 }
@@ -117,13 +118,15 @@ h4{
 	font-size: 18px;
 	text-align: justify;
 	margin: 15px 5px 5px 300px;
+	float:center;
 }
 #i2{
 	width: 280px;
 	border-radius: 5px;
 	margin-top: 50px;
+	float:left;
 }
-aside{
+#aside1{
 	width: 390px;
 	height: 700px;
 	float:left;
@@ -142,7 +145,7 @@ h3{
 	color:black;
 	text-align: left;
 	font-size:35px;	
-	margin: 30px 0px 20px 10px;
+	margin: 20px 0px 10px 10px;
 }
 #i{
 	text-decoration: none;
@@ -160,6 +163,7 @@ footer{
 	width: 1200px;
 	height: 60px;	
 	background-image: url(../img/Pie.jpg);
+	background-color: #005883;
 	float:left;	
 	border-radius: 5px;
 }
@@ -169,4 +173,51 @@ footer{
 	text-align: center;	
 	margin-top: 20px;
 }
-
+#p5{
+	margin: 10px;
+	font-size: 20px;
+}
+/*Específico para autores*/
+#autores{
+	width: 1200px;
+	height: 650px;
+}
+#p6{
+	font-family: 'Franklin-gothic-book';
+	color:#FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	margin:20px 5px 5px 5px;
+}
+#i3{
+	display: block;
+	margin:auto;
+	padding:10px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #FFFFFF;
+}
+#autor1{
+	float:left;
+	background: #808080;
+	width: 370px;
+	height: 640px;
+	border-radius: 5px;
+	margin:5px 10px 5px 25px;
+}
+#autor2{
+	float:left;
+	background: #F0B429;
+	width: 370px;
+	height: 640px;
+	border-radius: 5px;
+	margin:5px 10px 5px 10px;
+}
+#autor3{
+	float:left;
+	background: #333333;
+	width: 370px;
+	height: 640px;
+	border-radius: 5px;
+	margin:5px 10px 5px 10px;
+}
